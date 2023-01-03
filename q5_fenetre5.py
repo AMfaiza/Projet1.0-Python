@@ -128,7 +128,7 @@ lbtitre = Label(fenetre5, text=selection ,font=("Arial",16),
 lbtitre.place(x=25,y=100)
 
 bt= tk.Button(fenetre5, text= "Afficher plus de détails", font= ("Arial",12),
-                background ="#FF4500", foreground="white",  command=lambda: btn1(bt,dfproduit))
+                background ="#FF4500", foreground="white",  command=lambda: btn55(bt,dfproduit))
 bt.place(x=260,y=200) 
 bt.grid_forget()
 fenetre5.mainloop()
